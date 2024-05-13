@@ -20,6 +20,6 @@ Konkret beinhaltet dies:
 
 ## Lizenzierung
 
-Wir veröffentlichen den Source-Code in diesem Repository unter der MIT-Lizenz. 
+Wir veröffentlichen unseren Source-Code in diesem Repository unter der MIT-Lizenz. 
 
-Für die bereitgestellten Daten, das Debriefing und den Fragebogen gilt die CC-BY Lizenz. 
+Für die bereitgestellten Daten, das Debriefing und den Fragebogen gilt die CC-BY-4.0 Lizenz. 

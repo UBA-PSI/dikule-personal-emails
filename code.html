@@ -2991,7 +2991,6 @@ correction with a significance level of 0.05, i.e., alpha=0.05.</p>
   cat(&quot;\nCramer&#39;s V:&quot;, cramerV(groups_conting), &quot;\n&quot;)
   return (chi2_test$p.value)
 }</code></pre>
-<p>Test distribution of variables gender, prev_years, age</p>
 <div id="h1-mails-increase-the-activity-of-students." class="section level2">
 <h2>H1: Mails increase the activity of students.</h2>
 <p>For our analysis, we consider only one week at a time. By limiting
@@ -3081,7 +3080,7 @@ We apply the same procedure for all personal/unspecific emails.</p>
 ## Cramer&#39;s V: 0.08498</code></pre>
 <p>Running the chi-squared test we get a p-value of 0.0121159, 0.4458151
 and 0.2377654. If we apply multi-test correction, we get p-values of
-0.08 and 1 for the other two interventions. b Hence, there is no
+0.08 and 1 for the other two interventions. Hence, there is no
 significant effect of the mails.</p>
 </div>
 </div>
@@ -3212,8 +3211,8 @@ t_fm_direct</code></pre>
 <pre class="r"><code>cat(&quot;SD Tutor&quot;, sd(data_male2$sum_active_days))</code></pre>
 <pre><code>## SD Tutor 6.226648</code></pre>
 <p>We get a p-value of 0.200382. With multi-test correction, this
-corresponds to 0.6249912, which is above our significance level. So
-there is no difference between those two groups.</p>
+corresponds to 1, which is above our significance level. So there is no
+difference between those two groups.</p>
 </div>
 </div>
 <div id="mutli-test-correction" class="section level2">
